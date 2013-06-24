@@ -1,0 +1,14 @@
+public class BFSIterator implements Iterator<Integer> {
+
+ private Queue underlyingQueue;
+ Private Graph graph;
+ private int startNode;
+
+ private void traverseGraph() {
+Node tmpNode = graph.getNode(startNode);
+
+while (tmpNode != null) {
+ underlyingQueue.push(tmpNode);
+ 
+}
+}
